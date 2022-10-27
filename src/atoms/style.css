@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&display=swap');
+:root {
+  --white-overlay: #e6e6e682;
+  --white: #e6e6e6;
+  --black: #272529;
+  --grey: #4a474e;
+  --bleu: #306672;
+  --bleu-light: #139bba;
+  --yellow: #7cac33;
+  --grad-grey: linear-gradient(#ffffff, #bfbfbf);
+  --grad-bleu: linear-gradient(#bad7db, #205865);
+  --fg: var(--black);
+  --bg: var(--white);
+  --shadow: 4px 4px 4px #b0b0b0;
+  --border-rad: 1.5625rem;
+}
+.text {
+  font-family: 'Space Grotesk', sans-serif;
+}
+.text--white {
+  color: var(--white);
+}
+.text--black {
+  color: var(--black);
+}
+.text--yellow {
+  color: var(--yellow);
+}
+.text--light-bleu {
+  color: var(--bleu-light);
+}
+.text--large {
+  font-size: 2.5rem;
+}
+.text--medium {
+  font-size: 1.75rem;
+}
+.text--small {
+  font-size: 1rem;
+}
+/* BUTTON */
+.button {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0;
+  padding: 0.5rem 1rem;
+  border-radius: var(--border-rad);
+  cursor: pointer;
+  box-shadow: var(--shadow);
+}
+
+.button--primary {
+  background: var(--bleu);
+  color: var(--bg);
+  border: none;
+}
+
+.button--secondary {
+  background: transparent;
+  color: var(--bleu);
+  border: var(--bleu) solid 2px;
+}
+
+.button--primary:hover {
+  background: transparent;
+  color: var(--bleu);
+}
+
+.button--secondary:hover {
+  background: var(--bleu);
+  color: var(--white);
+}
