@@ -1,4 +1,5 @@
 import './style.css';
+import { createButton } from './Button';
 import { Meta, StoryFn } from '@storybook/html';
 
 export default {
@@ -15,15 +16,8 @@ export default {
     primary: true,
   },
 } as Meta;
-
-const Template = (args): HTMLButtonElement => {
-  const btn = document.createElement('button');
-  btn.innerText = args.label;
-  btn.className = [
-    'button',
-    `button--${args.primary ? 'primary' : 'secondary'}`,
-  ].join(' ');
-  return btn;
+const Template: StoryFn = ({ label, ...args }): HTMLButtonElement => {
+  return createButton({ label, ...args });
 };
 
 export const Primary = Template.bind({});
