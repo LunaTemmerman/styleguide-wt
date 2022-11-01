@@ -1,4 +1,3 @@
-import './style.css';
 import { createButton } from './Button';
 import { Meta, StoryFn } from '@storybook/html';
 

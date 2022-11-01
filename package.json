@@ -1,7 +1,7 @@
 {
-  "name": "storybook",
+  "name": "styleguide-wt",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -47,6 +47,7 @@
     "@storybook/html": "^6.5.13",
     "@storybook/manager-webpack5": "^6.5.13",
     "@storybook/testing-library": "^0.0.13",
-    "babel-loader": "^8.2.5"
+    "babel-loader": "^8.2.5",
+    "chromatic": "^6.11.4"
   }
 }
