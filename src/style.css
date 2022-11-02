@@ -23,6 +23,16 @@
   background: #1e617078;
   border-radius: var(--border-rad);
 }
+/* MAP */
+.container--map {
+  width: 100%;
+  height: 45vh;
+}
+.map {
+  width: 100%;
+  height: 100%;
+  /* background-color: rgb(106, 106, 106); */
+}
 /* CONTAINER */
 .container {
   display: flex;
