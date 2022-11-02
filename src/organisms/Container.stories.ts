@@ -10,6 +10,7 @@ export default {
         'currentcards',
         'forecastheader',
         'forecastcards',
+        'maplayers',
       ],
       control: { type: 'radio' },
     },
@@ -65,6 +66,11 @@ CurrentCards.args = {
 export const ForecastHeader = Template.bind({});
 ForecastHeader.args = {
   type: 'forecastheader',
+};
+
+export const MapLayers = Template.bind({});
+MapLayers.args = {
+  type: 'maplayers',
 };
 
 export const ForecastCards = Template.bind({});

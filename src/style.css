@@ -11,7 +11,7 @@
   --grad-bleu: linear-gradient(#bad7db, #205865);
   --fg: var(--black);
   --bg: var(--white);
-  --shadow: 4px 4px 4px #b0b0b0;
+  --shadow: 4px 4px 4px #64646477;
   --border-rad: 1.5625rem;
 }
 ::-webkit-scrollbar {
@@ -29,6 +29,15 @@
   width: 100%;
   gap: 2rem;
   padding: 0 0 1rem 0;
+}
+.container--maplayers {
+  margin: 1rem 0 0 1rem;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  gap: 1rem;
+  position: absolute;
+  z-index: 10;
 }
 /* HEADER */
 header {

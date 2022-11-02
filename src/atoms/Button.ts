@@ -3,7 +3,7 @@ import '../style.css';
 export const createButton = ({
   label = 'Do something',
   primary = true,
-  name = undefined,
+  name = '',
 }) => {
   const btn = document.createElement('button');
   btn.innerText = label;

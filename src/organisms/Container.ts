@@ -1,5 +1,6 @@
 import '../style.css';
 import { createCard } from '../molecules/Card';
+import { createButton } from '../atoms/Button';
 import { createText } from '../atoms/Text';
 import { createGraph } from '../molecules/Graph';
 
@@ -155,6 +156,43 @@ export const createContainer = ({
           })
         );
       });
+      break;
+    case 'maplayers':
+      container.appendChild(
+        createButton({
+          label: 'Clouds',
+          primary: true,
+          name: 'CL',
+        })
+      );
+      container.appendChild(
+        createButton({
+          label: 'Rain',
+          primary: true,
+          name: 'PAR0',
+        })
+      );
+      container.appendChild(
+        createButton({
+          label: 'Precipation',
+          primary: true,
+          name: 'PAC0',
+        })
+      );
+      container.appendChild(
+        createButton({
+          label: 'Wind',
+          primary: true,
+          name: 'WS10',
+        })
+      );
+      container.appendChild(
+        createButton({
+          label: 'Temperature',
+          primary: true,
+          name: 'TA2',
+        })
+      );
       break;
   }
   return container;
