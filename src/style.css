@@ -24,6 +24,9 @@
   background: #1e617078;
   border-radius: var(--border-rad);
 }
+main {
+  padding: 3rem;
+}
 /* MAP */
 .container--map {
   width: 100%;
@@ -40,6 +43,9 @@
   width: 100%;
   gap: 2rem;
   padding: 0 0 1rem 0;
+}
+.container--forecastcards {
+  overflow-x: scroll;
 }
 .container--maplayers {
   margin: 1rem 0 0 1rem;

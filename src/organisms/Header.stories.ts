@@ -21,7 +21,7 @@ export const Home = Template.bind({});
 Home.args = {
   type: 'home',
   home: './index.html',
-  map: './map/index.html',
+  map: './src/map/index.html',
 };
 
 export const Place = Template.bind({});
