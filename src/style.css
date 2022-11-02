@@ -7,6 +7,7 @@
   --bleu: #306672;
   --bleu-light: #139bba;
   --yellow: #7cac33;
+  --red: rgb(143, 32, 32);
   --grad-grey: linear-gradient(#ffffff, #bfbfbf);
   --grad-bleu: linear-gradient(#bad7db, #205865);
   --fg: var(--black);
@@ -181,12 +182,16 @@ div.top {
   display: flex;
   gap: 1rem;
 }
+.form--place > p {
+  margin: auto 0;
+  width: fit-content;
+}
 /* INPUT */
 .input--text {
   font-family: 'Space Grotesk', sans-serif;
   max-height: 100%;
   padding: 1rem;
-  width: 80%;
+  width: 20vw;
   border-radius: var(--border-rad);
   background: var(--bg);
   border: none;
@@ -225,6 +230,9 @@ div.top {
 }
 .text--bleu {
   color: var(--bleu);
+}
+.text--red {
+  color: var(--red);
 }
 .text--large {
   font-size: 2.5rem;

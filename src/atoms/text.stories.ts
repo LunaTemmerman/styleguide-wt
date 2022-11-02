@@ -12,7 +12,7 @@ export default {
       control: { type: 'text' },
     },
     color: {
-      options: ['black', 'white', 'yellow', 'light-bleu', 'bleu'],
+      options: ['black', 'white', 'yellow', 'light-bleu', 'bleu', 'red'],
       control: { type: 'radio' },
     },
     size: {
