@@ -9,10 +9,11 @@ export default {
         type: 'text',
       },
     },
-  },
-  args: {
-    label: 'I am a button',
-    primary: true,
+    name: {
+      control: {
+        type: 'text',
+      },
+    },
   },
 } as Meta;
 const Template: StoryFn = ({ label, ...args }): HTMLButtonElement => {
