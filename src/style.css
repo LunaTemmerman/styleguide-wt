@@ -273,13 +273,13 @@ div.top {
 
 .button--secondary,
 .input--submit {
-  background: transparent;
+  background: var(--white);
   color: var(--bleu);
   border: var(--bleu) solid 2px;
 }
 
 .button--primary:hover {
-  background: transparent;
+  background: var(--white);
   color: var(--bleu);
 }
 
