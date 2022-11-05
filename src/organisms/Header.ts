@@ -6,7 +6,7 @@ import { createIcon } from '../atoms/Icon';
 export const createHeader = ({
   type = 'home',
   home = './',
-  map = './map/index.html',
+  map = './src/map/index.html',
 }) => {
   const header = document.createElement('header');
   const homeLink = document.createElement('a');

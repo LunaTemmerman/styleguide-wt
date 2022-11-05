@@ -19,5 +19,6 @@ export const createRow = ({
     );
   });
   row.className = 'row';
+  row.tabIndex = 0;
   return row;
 };

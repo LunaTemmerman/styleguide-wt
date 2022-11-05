@@ -12,6 +12,8 @@ export const createMap = ({}) => {
   const map = document.createElement('div');
   map.id = 'map';
   map.className = 'map';
+  map.tabIndex = 0;
   container.appendChild(map);
+  container.tabIndex = 0;
   return container;
 };

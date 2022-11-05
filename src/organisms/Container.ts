@@ -90,6 +90,7 @@ export const createContainer = ({
   ],
 }) => {
   const container = document.createElement('div');
+  container.tabIndex = 0;
   container.className = ['container', `container--${type}`].join(' ');
 
   switch (type) {

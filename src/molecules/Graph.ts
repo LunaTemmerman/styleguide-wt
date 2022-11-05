@@ -46,6 +46,8 @@ export const createGraph = ({
     hum.style.height = `${(hour.humidity / 100) * 85}%`;
     const temp = document.createElement('div');
     temp.style.height = `${(hour.temp / 50) * 85}%`;
+    hum.tabIndex = 0;
+    temp.tabIndex = 0;
     element.appendChild(hum);
     element.appendChild(temp);
     element.appendChild(

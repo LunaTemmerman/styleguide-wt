@@ -26,5 +26,6 @@ export const createTable = ({
     table.appendChild(createRow({ cells }));
   });
   table.className = 'table';
+  table.tabIndex = 0;
   return table;
 };

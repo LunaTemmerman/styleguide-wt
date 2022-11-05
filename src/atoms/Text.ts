@@ -12,6 +12,7 @@ export const createText = ({
     type === 'read'
       ? document.createElement('p')
       : document.createElement('h1');
+  element.tabIndex = 0;
   element.innerText = label;
   element.style.fontWeight = `${weight}`;
   element.className = ['text', `text--${size}`, `text--${color}`].join(' ');

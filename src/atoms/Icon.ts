@@ -8,5 +8,6 @@ export const createIcon = ({
   icon.src = src;
   icon.alt = alt;
   icon.className = 'icon';
+  icon.tabIndex = 0;
   return icon;
 };

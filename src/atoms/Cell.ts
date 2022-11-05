@@ -9,5 +9,6 @@ export const createCell = ({
 }) => {
   const cell = document.createElement('td');
   cell.appendChild(createText({ size, color, type: 'read', label, weight }));
+  cell.tabIndex = 0;
   return cell;
 };

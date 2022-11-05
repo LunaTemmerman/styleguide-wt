@@ -32,6 +32,7 @@ export const createCard = ({
   ],
 }) => {
   const container = document.createElement('div');
+  container.tabIndex = 0;
   const top = document.createElement('div');
   const middle = document.createElement('div');
   container.className = ['card', `card--${type}`].join(' ');
