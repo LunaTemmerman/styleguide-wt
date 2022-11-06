@@ -137,11 +137,7 @@ export const createContainer = ({
           data: currentdata,
         })
       );
-      container.appendChild(
-        createGraph({
-          hours: hours,
-        })
-      );
+      container.appendChild(createGraph({}));
       break;
     case 'forecastcards':
       forecastdata.forEach(day => {

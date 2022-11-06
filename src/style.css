@@ -6,7 +6,7 @@
   --grey: #4a474e;
   --bleu: #306672;
   --bleu-light: #139bba;
-  --yellow: #7cac33;
+  --yellow: #b66610;
   --red: rgb(143, 32, 32);
   --grad-grey: linear-gradient(#ffffff, #bfbfbf);
   --grad-bleu: linear-gradient(#bad7db, #205865);
@@ -66,67 +66,14 @@ nav {
   justify-content: space-between;
 }
 /* GRAPH */
-.graph {
+.container--graph {
   width: inherit;
   background: var(--grad-grey);
-  display: flex;
-  gap: 2rem;
-  overflow-x: scroll;
-  position: relative;
   margin: 0;
-}
-.graph p {
-  width: 3rem;
-  padding-top: 1rem;
-  height: 1rem;
-}
-.graph li {
-  width: 3rem;
-  text-align: center;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: end;
-}
-.graph div {
-  width: 1rem;
-  border-radius: var(--border-rad);
-  margin-top: auto;
-}
-.graph div:first-child {
-  background: var(--bleu-light);
-  margin-right: 1rem;
-}
-.graph div:nth-child(2) {
-  background: var(--yellow);
-}
-
-.graph .colorindex {
-  background: none;
-  gap: 0.5rem;
-  left: 10%;
-  width: fit-content;
-  transform: translateY(-1rem);
-  position: absolute;
-}
-.graph .colorindex p {
-  width: fit-content;
-}
-.graph li.max {
-  position: fixed;
-}
-.graph li.max div {
-  background: #8b999b57;
-  height: 13.15rem;
-}
-.graph li.max div:nth-child(2) {
-  width: 0;
-}
-.graph li.max p {
-  width: 1rem;
 }
 /* CARD */
 .card,
-.graph {
+.container--graph {
   height: 16.5rem;
   box-shadow: var(--shadow);
   border-radius: var(--border-rad);

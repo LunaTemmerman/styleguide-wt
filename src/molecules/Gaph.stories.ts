@@ -6,8 +6,8 @@ export default {
   title: 'Molecules/Graph',
 } as Meta;
 
-const Template: StoryFn = (args): HTMLUListElement => {
-  return createGraph({ ...args });
+const Template: StoryFn = (): HTMLDivElement => {
+  return createGraph({});
 };
 
 export const Hours = Template.bind({});
