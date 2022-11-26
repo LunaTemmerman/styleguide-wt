@@ -1,5 +1,4 @@
 import '../style.css';
-import { createText } from '../atoms/Text';
 
 export const createGraph = ({}) => {
   const div = document.createElement('div');

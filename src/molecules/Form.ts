@@ -1,14 +1,8 @@
 import { createInput } from '../atoms/Input';
 import { createText } from '../atoms/Text';
-import { createButton } from '../atoms/Button';
 import '../style.css';
 
-export const createForm = ({
-  type = 'place',
-  label = 'Home',
-  path = '#',
-  error = 'Some error',
-}) => {
+export const createForm = ({ type = 'place', error = 'Some error' }) => {
   const form = document.createElement('form');
   switch (type) {
     case 'place':

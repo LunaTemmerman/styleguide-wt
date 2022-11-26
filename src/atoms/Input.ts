@@ -15,7 +15,7 @@ export const createInput = ({
       input.id = name;
       break;
     case 'submit':
-      input.value = '🔍';
+      input.value = value;
       break;
   }
   input.className = ['input', `input--${type}`].join(' ');
